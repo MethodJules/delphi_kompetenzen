@@ -65,7 +65,7 @@ function survey_form()
             <h2>" . $text . "</h2>";
         } else {
           $headline = "
-            <h1>These " . ($question_index - $questionGroupIndex + 1) . "(a)</h1>
+            <h1>These " . ($question_index - $questionGroupIndex + 1) . "</h1>
             <h2>" . $text . "</h2>";
         }
 
